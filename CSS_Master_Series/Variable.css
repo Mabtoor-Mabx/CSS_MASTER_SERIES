@@ -1,0 +1,41 @@
+:root /*Root Is keyword Used For Declare A Variable */
+{
+	--bg-clr:black;
+	--clr:white;
+}
+;
+
+
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+main
+{
+	font-weight: bold;
+	font-size: 30px;
+	position: absolute;
+	top: 70px;
+	background: var(--bg-clr);
+	color: var(--clr);
+}
+footer
+{
+	font-weight: bold;
+	font-size: 30px;
+	position:  absolute;
+	top:  50%;
+	background:var(--bg-clr);
+	color: var(--clr);   /*This Variable is used For Call The Root Properties*/
+	/**/
+}
+
+
+
+
+
+

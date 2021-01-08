@@ -1,0 +1,29 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+	background-color: #6f8197;
+}
+
+::Selection    /* Sellection Keyword Used For Change The Color When User Select The Text*/
+{
+	background-color: #bc1339;
+	color:  #fd8e2f;
+}
+
+
+header h1
+{
+	color: #e52325;
+	padding-left: 1%;
+}
+
+header p
+{
+	color:  #c30;
+	position: absolute;
+	top: 5%;
+	left: 15%;
+	word-spacing: 10px;
+	line-height: 30px;
+}

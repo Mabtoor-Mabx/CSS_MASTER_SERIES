@@ -1,0 +1,44 @@
+*
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+
+.parent
+{
+	width: 100vw;
+	height: 100vh;
+	background-color: #032149;
+	/*position: relative;*/
+
+/*TRICK_2 USING FLEX BOXES */ 
+/*display: flex;	
+
+justify-content: center;
+align-items: center;*/
+
+
+/* TRICK_3 USING GRID SYSTEM*/
+/*display: grid;
+place-items:center;*/
+
+
+}
+
+.child
+{
+	width: 60vw;
+	height: 60vh;
+	background-color: #2eb7ed;
+/*
+TRICK_1 USING POSITION METHOD	
+position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	*/
+
+
+
+}
